@@ -15,7 +15,26 @@ To provide an interactive and engaging way to experience playing Awalé.
 To apply and demonstrate OOP principles and design patterns in a real-world project.
 To preserve and share an important aspect of African cultural heritage.
 
-# Tools and Technologies
-Language: C#
-Framework: .NET for desktop application development
-IDE: Visual Studio
+# Implementing a Graphical Window for Awalé Game in C#
+**Tools and Technologies**
+.NET Framework: A software framework developed by Microsoft that provides a large library and language interoperability across several programming languages. .NET Framework includes Windows Forms, a GUI library for creating desktop applications.
+Windows Forms (WinForms): A GUI class library included in the Microsoft .NET Framework, providing a platform for developing rich desktop applications. Ideal for creating the graphical window for the Awalé game.
+Visual Studio: An integrated development environment (IDE) from Microsoft. It provides tools for designing, developing, and testing Windows Forms applications.
+Steps to Implement the Graphic Window
+
+# Step 1: Designing the Game Window
+Design the GUI: Use the Visual Studio Designer to design the game window. Drag and drop controls like Panels, Buttons, or PictureBoxes from the Toolbox to represent the game board and pits. Use Labels for displaying scores and game status messages.
+Customize Controls: Customize the appearance and properties of controls to fit the aesthetic of Awalé. You can set properties like background color, size, and font in the Properties window.
+
+# Step 2: Implementing Game Logic
+Game Board Representation: Implement a class to represent the game board logic, including the distribution of seeds, capturing rules, and determining the game's end.
+Event Handling: Write event handlers for user interactions (e.g., clicking on a pit). These handlers will update the game state and the GUI accordingly.
+Updating the GUI: After each move, update the GUI to reflect the current state of the game board. This includes updating the number of seeds in each pit and the scores.
+
+# Step 3: Running and Testing
+Run the Application: Use Visual Studio's built-in debugger to run your application. Test the functionality of your game thoroughly to ensure that all interactions work as expected.
+Debugging: Use Visual Studio's debugging tools to identify and fix any issues. Pay special attention to game logic and GUI updates.
+
+# Step 4: Packaging and Distribution
+Build the Application: Once testing is complete and application is ready create an executable (.exe) file.
+Distribution: can now distribute the executable file to others, allowing them to install and play the Awalé game on their Windows devices.
