@@ -14,7 +14,10 @@ namespace Awalé
         {
             Count = count;
         }
-
+        /// <summary>
+        /// yigiygiyhgiy
+        /// </summary>
+        /// <param name="additionalSeeds"></param>
         
         public void AddSeeds(int additionalSeeds)
         {
